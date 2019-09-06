@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/btngridview"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_design_button"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/ic_build_black_24dp"
+        />
+
+</LinearLayout>

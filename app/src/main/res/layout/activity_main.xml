@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.MainActivity"
+    android:background="#564fff">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Button"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:id="@+id/txt"
+        android:layout_marginTop="10dp"
+        />
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_margin="20dp"
+        android:id="@+id/gridview"
+        android:numColumns="2"
+        >
+    </GridView>
+
+</RelativeLayout>
